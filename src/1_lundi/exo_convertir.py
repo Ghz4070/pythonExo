@@ -5,6 +5,7 @@
 EUR = 1.2113
 USD = 0.8256
 
+
 def currencyConverter():
     chosenCurrency = input("Do you wish to convert your euros into \n1)USD \n2)EUR \n\n")
     print(("=" * 36))
@@ -17,11 +18,12 @@ def currencyConverter():
     # EUR
     if (chosenCurrency) == "2":
         usdAmount = round(float(input("How many dollars do you wish to convert into EUR ? ")))
-        print(("=" * 36) )
+        print(("=" * 36))
         print(usdAmount, "$ is", round((usdAmount) * USD, 2), "€.\n" + ("=" * 36))
 
     # Fail
     else:
         print("Error, please try again. \nEnter 1 for USD or 2 for EUR.")
+
 
 currencyConverter()
