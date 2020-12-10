@@ -1,0 +1,21 @@
+Materialiser la situation suivante en classes python
+-Une classe ville contient plusieurs batiments
+-Une classe  batiment appartient à une seule ville
+-Une classe entreprise possède plusieurs batiments dans plusieurs villes
+-Une classe employe sachant que plusieurs employes sont dans un batiment
+Voila les attributs de chaque classe
+
+Ville(nomVille)
+Batiment(nomBat)
+Entreprise(nomEntr)
+Employe(nom,prenom)
+
+-Creer dans ville la méthode qui affiche le nombre de batiments d'une ville
+-Creer dans entreprise la méthode qui affiche le nombre de batiments d'une entreprise
+
+Pour tester la mise en place, créer une entreprise, 2 villes et 3 batiments et plusieurs employes
+ajouter des villes à l'entreprise / et tester par affichage
+ajouter les batiments à l'entreprise / et tester par affichage
+ajouter des batiments aux villes / et tester par affichage
+ajouter des employes aux batiments / et tester par affichage
+Tester les méthodes créées
