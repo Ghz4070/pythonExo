@@ -1,7 +1,7 @@
 # fichier de test unitaire
-import sys
-
-sys.path.append('..')
+# import sys
+#
+# sys.path.append('..')
 from calculette import Calculette
 import unittest
 
