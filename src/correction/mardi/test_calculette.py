@@ -1,4 +1,4 @@
-# fichier de test unitaire
+# fichier de pythonExoTest unitaire
 # import sys
 #
 # sys.path.append('..')
